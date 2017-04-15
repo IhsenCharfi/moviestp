@@ -1,0 +1,36 @@
+{
+  "name": "movies",
+  "version": "0.0.0",
+  "description": "Movies App using ExpressJs 4",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChaymaeDerbali/Movies.git"
+  },
+  "author": "Derbali",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ChaymaeDerbali/Movies/issues"
+  },
+  "dependencies": {
+    "validator": "~7.0.0",
+    "mongoose": "~4.8.5",
+    "bcrypt": "~1.0.2",
+    "express": "~4.14.1",
+    "body-parser": "~1.16.1",
+    "pug": "~2.0.0-beta11",
+    "express-crud": "4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "jasmine": "^2.5.3",
+    "mocha": "~3.2.0",
+    "should": "~11.2.0",
+    "supertest": "~3.0.0"
+  }
+
+}
